@@ -6,5 +6,5 @@ module.exports = {
         key: 'personalDB',
         maxAge: 2592000000
     },
-    mongodb: 'mongodb://localhost:27017/personalDB'
+    mongodb: 'mongodb://120.27.216.198:27017/personalDB'
 };
