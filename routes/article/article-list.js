@@ -1,10 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const Article = new require('./../../models/article');
+const Article = new require('./../../models/Article');
 const pageList = require('./../../models/pageList');
 const moment = require('moment');
 
-//文档数据
+//文档数据(分页)
 router.get('/findArticlesList', function (req, res) {
     //查询数据
     const page = Number(req.query.pageIndex)+1;//当前页码

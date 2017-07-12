@@ -11,4 +11,4 @@ var ArticleSchema = new Schema({
     label_id: [{ type: Schema.Types.ObjectId, ref: 'label'}]//标签id
 });
 
-module.exports = mongoose.model('Article',ArticleSchema);
+module.exports = mongoose.model('article',ArticleSchema);

@@ -1,12 +1,12 @@
-var mongoose = require('./lib/db');
-var Article = new require('./models/article');
-var User = new require('./models/user');
-var Label = new require('./models/label');
-let ArticleLabel = new require('./models/ArticleLabel');
-let Aa = new require('./models/cs').aa;
-let Bb = new require('./models/cs').bb;
-let Cc = new require('./models/cs').cc;
-let Kk = new require('./models/kk');
+// let mongoose = require('./lib/db');
+// let Article = new require('./models/Article');
+// let User = new require('./models/user');
+// let Label = new require('./models/label');
+// let ArticleLabel = new require('./models/ArticleLabel');
+// let Aa = new require('./models/cs').aa;
+// let Bb = new require('./models/cs').bb;
+// let Cc = new require('./models/cs').cc;
+// let Kk = new require('./models/kk');
 
 // var article = new Article({
 //     title : '标题7',

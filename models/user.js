@@ -8,4 +8,4 @@ var UserSchema = new Schema({
     is_deleted : { type : Number ,default: 1}
 });
 
-module.exports = mongoose.model('User',UserSchema);
+module.exports = mongoose.model('user',UserSchema);

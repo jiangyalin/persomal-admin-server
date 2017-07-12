@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const Label = new require('./../../models/label');
-const Article = new require('./../../models/article');
+const Label = new require('./../../models/Label');
+const Article = new require('./../../models/Article');
 const ArticleLabel = new require('./../../models/ArticleLabel');
 const moment = require('moment');
 
