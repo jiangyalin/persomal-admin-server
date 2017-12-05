@@ -17,7 +17,7 @@ router.get('/findArticlesList', function (req, res) {
     const options = {sort:[{ date: -1 }]};//排序
     pageList.pageQuery(page, pageSize, Model, populate, criteria, fields, options, function (err, $page) {
         if (err){
-            next(err);
+            console.log(err);
         } else{
             var data = {
                 "total": $page.count,
